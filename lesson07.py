@@ -29,7 +29,7 @@ def main():
         return None
     # Выод информации о студенте и его навыках
     print(f"Студент {student['full_name']}")
-    print(f"Знает {', '.join(student['skills'])}")3
+    print(f"Знает {', '.join(student['skills'])}")
 
     user_choice = ""
     while True:
