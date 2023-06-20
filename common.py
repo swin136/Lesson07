@@ -92,6 +92,7 @@ def get_profession_by_title(professions: list, title: str):
         print('Ошибка доступа к данным специальностям!')
         return None
 
+
 def check_fitness(student, profession: dict):
     """
     Возращает словарь с параметрами пригодности студента к данной специальности
