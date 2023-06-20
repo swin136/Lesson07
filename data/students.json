@@ -28,6 +28,13 @@
 		"pk": 6,
 		"full_name":  "Пётр Фролов",
 		"skills": ["Python", "SQL", "Linux", "Docker", "Windows"]
+	},
+
+	{
+		"pk": 7,
+		"full_name":  "Сергей Иванов",
+		"skills": ["Go", "SQL", "React", "Docker", "Windows"]
 	}
+
 
 ]

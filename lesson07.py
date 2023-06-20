@@ -46,7 +46,7 @@ def main():
     if fitness is None:
         print('Критическая ошибка выполнения программы!')
         return None
-    # Выводим результаты
+    # Выводим результаты оценки пригодности студента
     print(f"Пригодность {fitness['fit_percent']}%")
     if fitness['fit_percent'] > 0:
         print(f"{student['full_name']} знает {', '.join(fitness['has'])}")
