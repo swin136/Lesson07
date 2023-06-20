@@ -2,7 +2,7 @@
 	{ 
 		"pk": 1,
 		"full_name":  "Jane Snake",
-		"skills": ["Python", "Go", "Linux"]
+		"skills": ["Python", "Go", "Linux", "SQL"]
 	},
 	{ 
 		"pk": 2,
