@@ -16,7 +16,7 @@ def load_students(filename: str):
         with open(os.path.join(DATA_DIR.strip(), filename.strip()), "r", encoding='utf-8') as file:
             data = json.load(file)
         return data
-  
+
 
     except json.decoder.JSONDecodeError:
         print(f'Ошибка декодирования данных студентов из файла {filename}')
