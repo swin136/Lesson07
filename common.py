@@ -109,7 +109,7 @@ def check_fitness(student, profession: dict):
         return {
             'has': list(has),
             'lacks': list(lacks),
-            'fit_percent': fit_percent
+            'fit_percent': fit_percent,
         }
 
     except KeyError:
