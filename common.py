@@ -103,18 +103,9 @@ def check_fitness(student, profession: dict):
     try:
         student_skills = set(student['skills'])
         profession_skills = set(profession['skills'])
-
-        # print(f"Данные студента {student_skills}")
-        # print(f"Данные профессии {profession_skills}")
-
         has = student_skills.intersection(profession_skills)
         lacks = profession_skills.difference(student_skills)
-
-        # print(f"Знает {has}")
-        # print(f"Не знает {lacks}")
-
         fit_percent = round(len(has) / len(profession_skills) * 100)
-        # print(f"Пригодность {fit_percent}%")
         return {
             'has': list(has),
             'lacks': list(lacks),
