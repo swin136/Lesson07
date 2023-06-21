@@ -51,7 +51,6 @@ def main():
     if fitness['fit_percent'] > 0:
         print(f"{student['full_name']} знает {', '.join(fitness['has'])}")
     print(f"{student['full_name']} не знает {', '.join(fitness['lacks'])}")
-    # print(profession['skills'])
 
     input("[+] Нажмите Enter для завершения работы программы ... ")
 
